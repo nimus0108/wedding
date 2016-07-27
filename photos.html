@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Display</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link rel="stylesheet" href="stylesheets/main.css" />
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+    <script type="text/javascript">
+	$(document).ready(function(){
+    	$(".box").each(function(i){
+			var x = document.getElementsByTagName("a")[i].getAttribute("href");
+			document.getElementsByTagName("a")[i].setAttribute("download", x);
+			document.getElementsByTagName("img")[i].setAttribute("src", x);
+		});
+    });
+    </script>
+</head>
+<body>
+	<div class="nav">
+		<a href="index.html" class="nav-left">Jieun &amp; Inna</a>
+		<a href="#timeline">Our Story</a>
+	    <a href="photos.html">Photos</a>
+	    <a href="wedding.html">Wedding</a>
+	</div>
+	<div class="display">
+		<a href="img/display/1.jpg" class="box">
+			<img class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+		</a>	
+		<a href="img/display/2.jpg" class="box">
+			<img class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+		</a>
+		<a href="img/display/3.jpg" class="box">
+			<img class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+		</a>
+		<a href="img/display/4.jpg" class="box">
+			<img class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+		</a>
+		<a href="img/display/5.jpg" class="box">
+			<img class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+		</a>
+		<a href="img/display/6.jpg" class="box">
+			<img class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+		</a>
+		<a href="img/display/7.jpg" class="box">
+			<img class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+		</a>
+		<a href="img/display/8.jpg" class="box">
+			<img class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+		</a>	
+		<a href="img/display/9.jpg" class="box">
+			<img class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+		</a>
+		<a href="img/display/10.jpg" class="box">
+			<img class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+		</a>	
+		<a href="img/display/11.jpg" class="box">
+			<img class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+		</a>	
+		<a href="img/display/12.jpg" class="box">
+			<img class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+		</a>
+		<a href="img/display/13.jpg" class="box">
+			<img class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+		</a>
+		<a href="img/display/14.jpg" class="box">
+			<img class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+		</a>
+		<a href="img/display/1.jpg" class="box">
+			<img class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+		</a>	
+		<a href="img/display/2.jpg" class="box">
+			<img class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+		</a>
+	</div>
+</body>
+</html>

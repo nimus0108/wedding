@@ -1,3 +1,27 @@
 .hero {
+	@include size(auto 100vh);
+	// @include background-image(url("../img/wedding.jpeg"));
+	background-size: cover;
+	text-align:center;
+
+	.title {
+		position:absolute;
+   		bottom:10em;
+   		width: 100%;
+   		text-align: center;
+
+		// font-family: NarzissRegular;
+		color: $color-black;
+		font-weight: 200;
 	
+		h1 {
+			font-size: 11em;
+			@include margin(0);
+		}
+
+		h2 {
+			font-size: 8em;
+			@include margin(0);
+		}
+	}
 }

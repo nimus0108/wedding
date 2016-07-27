@@ -1,5 +1,5 @@
 .nav {
-	@include margin(null 2em);
+	@include padding(null 2em);
     overflow: hidden;
     background-color: $color-white;
     text-align: right;
