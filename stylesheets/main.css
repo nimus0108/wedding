@@ -824,6 +824,9 @@ a {
   padding-left: 2em;
   overflow: hidden;
   background-color: #fff;
+  position: fixed;
+  z-index: 99;
+  width: 100%;
   text-align: right; }
   .nav .nav-left {
     float: left; }
