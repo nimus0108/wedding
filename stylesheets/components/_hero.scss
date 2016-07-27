@@ -1,6 +1,12 @@
+.main {
+	height: 100%;
+	display: block;
+}
+
 .hero {
 	@include size(auto 100vh);
-	// @include background-image(url("../img/wedding.jpeg"));
+	display: block;
+	@include background-image(url("../img/wedding.jpeg"));
 	background-size: cover;
 	text-align:center;
 
@@ -10,7 +16,7 @@
    		width: 100%;
    		text-align: center;
 
-		// font-family: NarzissRegular;
+		font-family: NarzissRegular;
 		color: $color-black;
 		font-weight: 200;
 	

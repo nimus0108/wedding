@@ -1,0 +1,48 @@
+.contact {
+	height: 20em;
+	width: 100%;
+	color: white;
+	background-color: $color-secondary;
+	// @include margin(70em 0 0 0);
+
+	position:relative;
+	bottom:0;
+	width: 100%;
+	text-align: center;
+
+	h1 {
+		font-size: 2em;
+		@include padding(1em 0 0 0);
+	}
+
+	h2 {
+		text-align: left;
+	}
+
+	h3 {
+		font-weight: 100;
+		font-size: 1em;
+		line-height: 0.5;
+		text-align: left;
+	}
+
+	.wife {
+		@include span-columns(3);
+		@include padding(2em);
+	}
+
+	.husband {
+		@include span-columns(3);
+		@include padding(2em);
+	}
+
+	.social {
+		@include span-columns(3);
+		@include padding(2em);
+
+		a {
+			color: $color-white;
+			text-decoration: underline;
+		}
+	}
+}

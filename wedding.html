@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Title</title>
+		<link rel="stylesheet" type="text/css" href="stylesheets/main.css">
+	</head>
+	<body>
+		<div class="nav">
+			<a href="index.html" class="nav-left">Jieun &amp; Inna</a>
+            <a href="photos.html">Photos</a>
+            <a href="wedding.html">Wedding</a>
+        </div>
+		<div class="wedding">
+			<h1>Wedding</h1>
+			<h3>01.07.2017</h3>
+			<div class="time">
+				<div class="years">
+					<h2>0</h2>
+					<h3>YEARS</h3>
+				</div>
+				<div class="months">
+					<h2>6</h2>
+					<h3>MONTHS</h3>
+				</div>
+				<div class="days">
+					<h2>23</h2>
+					<h3>DAYS</h3>
+				</div>
+			</div>
+			<h3 class="addr">516A Franklin Street, Bang Be Dong, NY (07670)</h3>
+			<div id="map"></div>
+		</div>
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+		<script>
+	      function initMap() {
+	        var mapDiv = document.getElementById('map');
+	        var map = new google.maps.Map(mapDiv, {
+	            center: {lat: 44.540, lng: -78.546},
+	            zoom: 8
+	        });
+	      }
+	    </script>
+		<script async defer
+	        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBpv_kUVTv5iXoD_ory87YF0kDVfL-EjIc&callback=initMap">
+	    </script>
+	</body>
+</html>

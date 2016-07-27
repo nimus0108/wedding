@@ -816,16 +816,13 @@ a {
   a:active, a:focus, a:hover {
     color: #104c90; }
 
-.timeline {
-  height: 30em; }
-
 .nav {
   padding-right: 2em;
   padding-left: 2em;
   overflow: hidden;
   background-color: #fff;
   position: fixed;
-  z-index: 99;
+  z-index: 999;
   width: 100%;
   text-align: right; }
   .nav .nav-left {
@@ -839,9 +836,16 @@ a {
     transition: 0.3s;
     font-size: 17px; }
 
+.main {
+  height: 100%;
+  display: block; }
+
 .hero {
   height: 100vh;
   width: auto;
+  display: block;
+  background-image: url("../img/wedding.jpeg");
+  background-image: url("../img/wedding.jpeg");
   background-size: cover;
   text-align: center; }
   .hero .title {
@@ -849,6 +853,7 @@ a {
     bottom: 10em;
     width: 100%;
     text-align: center;
+    font-family: NarzissRegular;
     color: #000;
     font-weight: 200; }
     .hero .title h1 {
@@ -858,8 +863,93 @@ a {
       font-size: 8em;
       margin: 0; }
 
-.wed {
-  height: 30em;
-  display: block; }
+.contact {
+  height: 20em;
+  width: 100%;
+  color: white;
+  background-color: #c77884;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  text-align: center; }
+  .contact h1 {
+    font-size: 2em;
+    padding: 1em 0 0; }
+  .contact h2 {
+    text-align: left; }
+  .contact h3 {
+    font-weight: 100;
+    font-size: 1em;
+    line-height: 0.5;
+    text-align: left; }
+  .contact .wife {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 23.23176%;
+    padding: 2em; }
+    .contact .wife:last-child {
+      margin-right: 0; }
+  .contact .husband {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 23.23176%;
+    padding: 2em; }
+    .contact .husband:last-child {
+      margin-right: 0; }
+  .contact .social {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 23.23176%;
+    padding: 2em; }
+    .contact .social:last-child {
+      margin-right: 0; }
+    .contact .social a {
+      color: #fff;
+      text-decoration: underline; }
+
+.wedding {
+  text-align: center;
+  padding: 5em 0; }
+  .wedding h1 {
+    font-family: NarzissRegular;
+    font-size: 5em;
+    text-align: center;
+    margin-bottom: 0; }
+  .wedding .time {
+    margin: 0 0 15em; }
+    .wedding .time h2 {
+      font-size: 7em;
+      margin: 0; }
+    .wedding .time .years {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 31.76157%; }
+      .wedding .time .years:last-child {
+        margin-right: 0; }
+    .wedding .time .months {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 31.76157%; }
+      .wedding .time .months:last-child {
+        margin-right: 0; }
+    .wedding .time .days {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 31.76157%; }
+      .wedding .time .days:last-child {
+        margin-right: 0; }
+  .wedding .addr {
+    font-weight: 100; }
+
+#map {
+  margin: 0 auto;
+  width: 50%;
+  height: 400px; }
 
 /*# sourceMappingURL=main.css.map */

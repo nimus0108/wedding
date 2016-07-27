@@ -1,0 +1,39 @@
+.wedding {
+	text-align: center;
+	@include padding(5em 0 5em 0);
+
+	h1 {
+		font-family: NarzissRegular;
+		font-size: 5em;
+		text-align: center;
+		margin-bottom: 0;
+	}
+
+	.time {
+		@include margin(0 0 15em 0);
+		h2 {
+			font-size: 7em;
+			@include margin(0);
+		}
+
+		.years {
+			@include span-columns(4);
+		}
+		.months {
+			@include span-columns(4);
+		}
+		.days {
+			@include span-columns(4);
+		}
+	}
+
+	.addr {
+		font-weight: 100;
+	}
+}
+
+#map {
+	@include margin(0 auto);
+    width: 50%;
+    height: 400px;
+}
