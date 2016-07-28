@@ -12,22 +12,25 @@
 
 	.title {
 		position:absolute;
-   		bottom:10em;
    		width: 100%;
    		text-align: center;
+   		@include margin(15em 0);
 
 		font-family: NarzissRegular;
-		color: $color-black;
-		font-weight: 200;
+		color: $color-secondary;
 	
 		h1 {
-			font-size: 11em;
+			// text-transform: uppercase;
+			font-size: 6em;
 			@include margin(0);
 		}
 
 		h2 {
-			font-size: 8em;
-			@include margin(0);
-		}
+			text-transform: lowercase;
+			color: $color-white;
+			font-weight: 100;
+			font-size: 2em;
+			@include margin(0 5em);
+		 }
 	}
 }

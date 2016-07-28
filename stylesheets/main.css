@@ -850,21 +850,23 @@ a {
   text-align: center; }
   .hero .title {
     position: absolute;
-    bottom: 10em;
     width: 100%;
     text-align: center;
+    margin: 15em 0;
     font-family: NarzissRegular;
-    color: #000;
-    font-weight: 200; }
+    color: #c77884; }
     .hero .title h1 {
-      font-size: 11em;
+      font-size: 6em;
       margin: 0; }
     .hero .title h2 {
-      font-size: 8em;
-      margin: 0; }
+      text-transform: lowercase;
+      color: #fff;
+      font-weight: 100;
+      font-size: 2em;
+      margin: 0 5em; }
 
 .contact {
-  height: 20em;
+  height: 15em;
   width: 100%;
   color: white;
   background-color: #c77884;
